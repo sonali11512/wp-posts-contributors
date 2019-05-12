@@ -14,8 +14,7 @@ class ContributorBox
     }
     public function authorList()
     {
-        global $post;
-        ?>
+        global $post; ?>
         <div class="wrap">
             <?php
             $saved_users = array();
@@ -29,16 +28,14 @@ class ContributorBox
                         $author_selector_checked = 'checked="checked"';
                     } else {
                         $author_selector_checked = '';
-                    }
-                    ?>
-                <input name="authorlist[]" type="checkbox" value="<?php echo $user_id ;?>" <?php echo $author_selector_checked; ?>><label><?php echo $user_name; ?></label>
-                <?php }
-            }
-            
-            
-            ?>
-        </div>
-    <?php }
+                    } ?>
+                    <input name="authorlist[]" type="checkbox" value="<?php echo $user_id ; ?>" <?php echo $author_selector_checked; ?>><label><?php echo $user_name; ?></label>
+                    <?php
+                }
+            } ?>
+            </div>
+        <?php
+    }
 
     public function saveMetaData($postid)
     {
@@ -48,5 +45,3 @@ class ContributorBox
         }
     }
 }
-
-  
