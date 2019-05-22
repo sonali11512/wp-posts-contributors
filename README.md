@@ -1,6 +1,6 @@
 Welcome to the Posts Contributors repository.
 
-[![Build Status](https://travis-ci.org/sonali11512/posts-contributor.svg?branch=master)](https://travis-ci.org/sonali11512/posts-contributor)
+[![Build Status](https://travis-ci.org/sonali11512/wp-posts-contributors.svg?branch=master)](https://travis-ci.org/sonali11512/wp-posts-contributors)
 
 ## Demo
 
