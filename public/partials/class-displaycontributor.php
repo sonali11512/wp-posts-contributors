@@ -36,10 +36,12 @@ class DisplayContributor {
 	 * Loads styles and scripts.
 	 */
 	public function enqueue_styles() {
-		wp_register_style( 'bootstrap', plugins_url( 'css/bootstrap.min.css', dirname( __FILE__ ) ), '', '1.0.0' );
-		wp_enqueue_style( 'bootstrap' );
-		wp_register_style( 'contributor', plugins_url( 'css/contributor.css', dirname( __FILE__ ) ), '', '1.0.0' );
-		wp_enqueue_style( 'contributor' );
+		// if ( is_singular( 'post' ) ){?
+			wp_register_style( 'bootstrap', plugins_url( 'css/bootstrap.min.css', dirname( __FILE__ ) ), '', '1.0.0' );
+			wp_enqueue_style( 'bootstrap' );
+			wp_register_style( 'contributor', plugins_url( 'css/contributor.css', dirname( __FILE__ ) ), '', '1.0.0' );
+			wp_enqueue_style( 'contributor' );
+		// }?
 	}
 
 	/**
