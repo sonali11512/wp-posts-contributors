@@ -74,7 +74,7 @@ class ContributorMetaBox {
 	 */
 	public function save_meta_data( $postid ) {
 		if ( isset( $_POST['authorlist'] ) && ! empty( $_POST['authorlist'] ) ) {
-			$authorlist = wp_unslash($_POST['authorlist']);
+			$authorlist = wp_unslash( $_POST['authorlist'] );
 			update_post_meta( $postid, 'authorlist', $authorlist );
 		}
 	}
