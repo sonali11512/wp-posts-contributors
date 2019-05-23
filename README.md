@@ -17,7 +17,7 @@ This is my submission for rtCamp Plugin Assignment(2-b)
 
 ###  Admin-Side:
 
-    Creates an contributor metabox for post, consists of the list the users with author role.
+    Creates an contributor metabox for post. It consists the list of (WordPress author role) users.
     1. Check/Uncheck the users to assign as contributor to post.
     2. Publish/Update/Save the Post.
 
