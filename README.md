@@ -12,7 +12,7 @@ You can find the link to demo [here](http://13.127.28.130)
 
 ## Description ##
 
-This is my submission for rtCamp Plugin Assignment(2-b)
+This is my submission for Plugin Assignment(2-b)
 
 
 ###  Admin-Side:
